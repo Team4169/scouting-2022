@@ -1,0 +1,90 @@
+[
+  {
+    "award_type": 30,
+    "event_key": "2016ripro",
+    "name": "Team Spirit Award sponsored by FCA Foundation",
+    "recipient_list": [
+      {
+        "awardee": null,
+        "team_key": "frc4169"
+      }
+    ],
+    "year": 2016
+  },
+  {
+    "award_type": 18,
+    "event_key": "2017mabri",
+    "name": "Safety Award sponsored by Underwriters Laboratories",
+    "recipient_list": [
+      {
+        "awardee": null,
+        "team_key": "frc4169"
+      }
+    ],
+    "year": 2017
+  },
+  {
+    "award_type": 2,
+    "event_key": "2017mabri",
+    "name": "District Event Finalist",
+    "recipient_list": [
+      {
+        "awardee": null,
+        "team_key": "frc4151"
+      },
+      {
+        "awardee": null,
+        "team_key": "frc4169"
+      },
+      {
+        "awardee": null,
+        "team_key": "frc4176"
+      }
+    ],
+    "year": 2017
+  },
+  {
+    "award_type": 2,
+    "event_key": "2017marea",
+    "name": "District Event Finalist",
+    "recipient_list": [
+      {
+        "awardee": null,
+        "team_key": "frc1721"
+      },
+      {
+        "awardee": null,
+        "team_key": "frc2648"
+      },
+      {
+        "awardee": null,
+        "team_key": "frc4169"
+      }
+    ],
+    "year": 2017
+  },
+  {
+    "award_type": 18,
+    "event_key": "2018marea",
+    "name": "Safety Award sponsored by Underwriters Laboratories",
+    "recipient_list": [
+      {
+        "awardee": null,
+        "team_key": "frc4169"
+      }
+    ],
+    "year": 2018
+  },
+  {
+    "award_type": 13,
+    "event_key": "2019marea",
+    "name": "Judges' Award",
+    "recipient_list": [
+      {
+        "awardee": null,
+        "team_key": "frc4169"
+      }
+    ],
+    "year": 2019
+  }
+]

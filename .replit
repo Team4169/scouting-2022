@@ -1,2 +1,1 @@
-language = "python3"
-run = "python3 blueallience/main.py"
+entrypoint = "app.py"
