@@ -1,0 +1,11 @@
+h1, h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+table {
+    width: 100%;
+    /*border-collapse: collapse;*/
+    outline: black;
+    text-align: center;
+}
