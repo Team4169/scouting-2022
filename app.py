@@ -1,38 +1,50 @@
-from flask import Flask, render_template, request
-import calculator
+from flask import Flask, render_template, request, redirect
+import calculator, bluealliance
 import sqlite3
 from tabulate import tabulate
 
 app = Flask(__name__)
-dataTable=[["test", "test", "test", "test", "test"]]
 
 @app.route('/')
 def index():
-    example = "INSERT INTO teams VALUES{}".format("(" + ",".join(dataTable[0]) + ")")
-    print(example)
-    return render_template('index.html', table_html=tabulate(dataTable, tablefmt='html'))
-
-
-@app.route('/uploadteam', methods=['POST'])
-def uploadteam():
-    score = calculator.getPitScore(request.form.to_dict())
-    num = request.form.get('team-number')
     db = sqlite3.connect('db.sqlite3')
-    example = "INSERT INTO teams VALUES{}".format("(" + ",".join(dataTable[0]) + ")")
-    print(example)
-    res = db.execute("SELECT * FROM teams ORDER BY number", (num, ))
-    print(res)
-    return "ok"
+    cur = db.cursor()
+    teams = cur.execute("SELECT name,number,pscore,mscore, comments, pscore+mscore AS tscore FROM teams ORDER BY tscore DESC").fetchall()
+    cur.close()
+    data = []
+    i = 1
+    for team in teams:
+        data.append({
+            'name': team[0],
+            'number': team[1],
+            'pit': team[2],
+            'match': team[3],
+            'comments': team[4],
+            'rank': i,
+        })
+        i+=1
+    return render_template('index.html', data=data)
 
-@app.route('/upload', methods=['GET','POST'])
+@app.route('/pull')
+def pull():
+    bluealliance.pullInfo()
+    return redirect('/')
+
+
+@app.route('/upload', methods=['POST'])
 def upload():
-  if request.method == 'POST':
-    form = request.form
-    dataTable.append([form.get("number"), form.get("name"), form.get("match"), form.get("pit"), form.get("comment")])
-    print(dataTable)
-    return render_template('index.html', table_html=tabulate(dataTable, tablefmt='html'))
-  else:
-    return render_template('upload.html')
+    num = request.form.get('number')
+    name = request.form.get('name')
+    score = request.form.get('score')
+    comments = request.form.get('comments')
+    db = sqlite3.connect('db.sqlite3')
+    cur = db.cursor()
+    if cur.execute("SELECT COUNT(*) FROM teams WHERE number=?", (num,)).fetchone()[0] == 0:
+        cur.execute("INSERT INTO teams (name, number, pscore, comments) VALUES (?,?,?,?,?)", (name, num, score, comments))
+    else:
+        cur.execute("UPDATE teams SET pscore=?, comments=? WHERE number=?", (score, comments, num))
+    db.commit()
+    db.close()
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=8080)

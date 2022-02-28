@@ -7,10 +7,10 @@
 <body>
 <h1>Team 4169</h1>
 <h2>Scouting data</h2>
-<div style="text-align:center">
-  <a href="/upload">Upload</a>
-</div>
+<a href="/pull">Pull from Blue Alliance</a>
 <br>
+<br>
+
 <table>
     <tr>
         <th>Rank</th>
@@ -20,14 +20,16 @@
         <th>Pit Score</th>
         <th>Comments</th>
     </tr>
+    {% for team in data %}
     <tr>
-        <td>1</td>
-        <td>4169</td>
-        <td>Warriors Robotics</td>
-        <td>0</td>
-        <td>0</td>
-        <td>No comments</td>
+        <td>{{ team.rank }}</td>
+        <td>{{ team.number }}</td>
+        <td>{{ team.name }}</td>
+        <td>{{ team.match }}</td>
+        <td>{{ team.pit }}</td>
+        <td>{{ team.comments }}</td>
     </tr>
+    {% endfor %}
 </table>
 <br>
 <br>
