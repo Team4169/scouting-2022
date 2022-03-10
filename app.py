@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect
 import calculator, bluealliance
 import sqlite3
-from tabulate import tabulate
+#from tabulate import tabulate
 
 app = Flask(__name__)
 
@@ -23,11 +23,13 @@ def index():
             'rank': i,
         })
         i+=1
+
+    print(teams)
     return render_template('index.html', data=data)
 
-@app.route('/pull')
+@app.route('/pull', methods=['GET'])
 def pull():
-    bluealliance.pullInfo()
+    num, name = bluealliance.pullInfo()
     return redirect('/')
 
 
