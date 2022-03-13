@@ -67,7 +67,7 @@ def scoreTeam(team, matches):
     teleop_cargo = avg(teleop_cargo)
 
     score = (auto_cargo * 0.75) + teleop_cargo + (5 * endgame)
-    if auto_taxi < 1.75:
+    if auto_taxi < 1.5:
         score *= 0.75
     return round(score)
 
