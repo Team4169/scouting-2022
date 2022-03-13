@@ -63,7 +63,7 @@ def scoreTeam(team, matches):
 
     auto_cargo = avg(auto_cargo) # Points earned from cargo during auto on average
     auto_taxi = avg(auto_taxi) # Average taxi score. 2 = moved every auto
-    endgame = math.ceil(avg(endgame))
+    endgame = round(avg(endgame))
     teleop_cargo = avg(teleop_cargo)
 
     score = (auto_cargo * 0.75) + teleop_cargo + (5 * endgame)
