@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request, redirect
-import calculator, bluealliance
 import sqlite3
-#from tabulate import tabulate
+from scrape import scrape
 
 app = Flask(__name__)
+
+MATCH = "2022nhgrs"
 
 @app.route('/')
 def index():
@@ -29,7 +30,16 @@ def index():
 
 @app.route('/pull', methods=['GET'])
 def pull():
-    num, name = bluealliance.pullInfo()
+    teams = scrape(MATCH)
+    db = sqlite3.connect('db.sqlite3')
+    cur = db.cursor()
+    for team in teams:
+        if cur.execute("SELECT COUNT(*) FROM teams WHERE number=?", (team['number'],)).fetchone()[0] > 0:
+            cur.execute("UPDATE teams SET mscore=?, name=? WHERE number=?", (team['score'], team["name"], team['number']))
+        else:
+            cur.execute("INSERT INTO teams (name, number, mscore) VALUES (?,?,?)", (team['name'], team['number'], team['score']))
+    db.commit()
+    db.close()
     return redirect('/')
 
 
@@ -41,10 +51,10 @@ def upload():
     comments = request.form.get('comments')
     db = sqlite3.connect('db.sqlite3')
     cur = db.cursor()
-    if cur.execute("SELECT COUNT(*) FROM teams WHERE number=?", (num,)).fetchone()[0] == 0:
-        cur.execute("INSERT INTO teams (name, number, pscore, comments) VALUES (?,?,?,?,?)", (name, num, score, comments))
+    if cur.execute("SELECT COUNT(*) FROM teams WHERE number=?", (num,)).fetchone()[0] > 0:
+        cur.execute("UPDATE teams SET pscore=?, name=?, comments=? WHERE number=?", (score, name, comments, num))
     else:
-        cur.execute("UPDATE teams SET pscore=?, comments=? WHERE number=?", (score, comments, num))
+        cur.execute("INSERT INTO teams (name, number, pscore, comments) VALUES (?,?,?,?)", (name, num, score, comments))
     db.commit()
     db.close()
 
