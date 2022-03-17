@@ -117,7 +117,12 @@
     },
     "set_number": 1,
     "time": 1647195840,
-    "videos": [],
+    "videos": [
+      {
+        "key": "_JUyJJFqQCg",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -242,44 +247,13 @@
     },
     "set_number": 1,
     "time": 1647196320,
-    "videos": [],
-    "winning_alliance": "blue"
-  },
-  {
-    "actual_time": null,
-    "alliances": {
-      "blue": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc4564",
-          "frc5813",
-          "frc8023"
-        ]
-      },
-      "red": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc3467",
-          "frc6329",
-          "frc7907"
-        ]
+    "videos": [
+      {
+        "key": "qb_CeLjY6iM",
+        "type": "youtube"
       }
-    },
-    "comp_level": "f",
-    "event_key": "2022melew",
-    "key": "2022melew_f1m3",
-    "match_number": 3,
-    "post_result_time": null,
-    "predicted_time": 1647292445,
-    "score_breakdown": null,
-    "set_number": 1,
-    "time": 1647196800,
-    "videos": [],
-    "winning_alliance": ""
+    ],
+    "winning_alliance": "blue"
   },
   {
     "actual_time": 1647187654,
@@ -399,7 +373,12 @@
     },
     "set_number": 1,
     "time": 1647187200,
-    "videos": [],
+    "videos": [
+      {
+        "key": "NHhlTtmePQU",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -520,44 +499,13 @@
     },
     "set_number": 1,
     "time": 1647189120,
-    "videos": [],
-    "winning_alliance": "red"
-  },
-  {
-    "actual_time": null,
-    "alliances": {
-      "blue": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc1831",
-          "frc6153",
-          "frc4906"
-        ]
-      },
-      "red": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc3467",
-          "frc6329",
-          "frc7907"
-        ]
+    "videos": [
+      {
+        "key": "s0ZCqfVqmyI",
+        "type": "youtube"
       }
-    },
-    "comp_level": "qf",
-    "event_key": "2022melew",
-    "key": "2022melew_qf1m3",
-    "match_number": 3,
-    "post_result_time": null,
-    "predicted_time": 1647191944,
-    "score_breakdown": null,
-    "set_number": 1,
-    "time": 1647191040,
-    "videos": [],
-    "winning_alliance": ""
+    ],
+    "winning_alliance": "red"
   },
   {
     "actual_time": 1647188100,
@@ -677,7 +625,12 @@
     },
     "set_number": 2,
     "time": 1647187680,
-    "videos": [],
+    "videos": [
+      {
+        "key": "wfrp1MztmDU",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -798,44 +751,13 @@
     },
     "set_number": 2,
     "time": 1647189600,
-    "videos": [],
-    "winning_alliance": "red"
-  },
-  {
-    "actual_time": null,
-    "alliances": {
-      "blue": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc4041",
-          "frc172",
-          "frc5494"
-        ]
-      },
-      "red": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc5687",
-          "frc58",
-          "frc2648"
-        ]
+    "videos": [
+      {
+        "key": "MU1Mx69u9qE",
+        "type": "youtube"
       }
-    },
-    "comp_level": "qf",
-    "event_key": "2022melew",
-    "key": "2022melew_qf2m3",
-    "match_number": 3,
-    "post_result_time": null,
-    "predicted_time": 1647192415,
-    "score_breakdown": null,
-    "set_number": 2,
-    "time": 1647191520,
-    "videos": [],
-    "winning_alliance": ""
+    ],
+    "winning_alliance": "red"
   },
   {
     "actual_time": 1647188633,
@@ -955,7 +877,12 @@
     },
     "set_number": 3,
     "time": 1647188160,
-    "videos": [],
+    "videos": [
+      {
+        "key": "2CdBORbBaIU",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -1076,44 +1003,13 @@
     },
     "set_number": 3,
     "time": 1647190080,
-    "videos": [],
-    "winning_alliance": "red"
-  },
-  {
-    "actual_time": null,
-    "alliances": {
-      "blue": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc190",
-          "frc3451",
-          "frc4473"
-        ]
-      },
-      "red": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc125",
-          "frc133",
-          "frc6895"
-        ]
+    "videos": [
+      {
+        "key": "rOAwd4IvsEQ",
+        "type": "youtube"
       }
-    },
-    "comp_level": "qf",
-    "event_key": "2022melew",
-    "key": "2022melew_qf3m3",
-    "match_number": 3,
-    "post_result_time": null,
-    "predicted_time": 1647192886,
-    "score_breakdown": null,
-    "set_number": 3,
-    "time": 1647192000,
-    "videos": [],
-    "winning_alliance": ""
+    ],
+    "winning_alliance": "red"
   },
   {
     "actual_time": 1647189218,
@@ -1233,7 +1129,12 @@
     },
     "set_number": 4,
     "time": 1647188640,
-    "videos": [],
+    "videos": [
+      {
+        "key": "t6pCBbK1yt4",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -1354,44 +1255,13 @@
     },
     "set_number": 4,
     "time": 1647190560,
-    "videos": [],
-    "winning_alliance": "red"
-  },
-  {
-    "actual_time": null,
-    "alliances": {
-      "blue": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc157",
-          "frc166",
-          "frc6161"
-        ]
-      },
-      "red": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc4564",
-          "frc5813",
-          "frc8023"
-        ]
+    "videos": [
+      {
+        "key": "ilhZX5w9sIY",
+        "type": "youtube"
       }
-    },
-    "comp_level": "qf",
-    "event_key": "2022melew",
-    "key": "2022melew_qf4m3",
-    "match_number": 3,
-    "post_result_time": null,
-    "predicted_time": 1647193357,
-    "score_breakdown": null,
-    "set_number": 4,
-    "time": 1647192480,
-    "videos": [],
-    "winning_alliance": ""
+    ],
+    "winning_alliance": "red"
   },
   {
     "actual_time": 1647100699,
@@ -1511,7 +1381,12 @@
     },
     "set_number": 1,
     "time": 1647100800,
-    "videos": [],
+    "videos": [
+      {
+        "key": "AhiMIs9G5-g",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -1632,7 +1507,12 @@
     },
     "set_number": 1,
     "time": 1647105120,
-    "videos": [],
+    "videos": [
+      {
+        "key": "La4JDWb4Ay0",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -1753,7 +1633,12 @@
     },
     "set_number": 1,
     "time": 1647105600,
-    "videos": [],
+    "videos": [
+      {
+        "key": "lvHYKDJyTv4",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -1874,7 +1759,12 @@
     },
     "set_number": 1,
     "time": 1647106080,
-    "videos": [],
+    "videos": [
+      {
+        "key": "j0T5iGBaJsQ",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -1995,7 +1885,12 @@
     },
     "set_number": 1,
     "time": 1647106560,
-    "videos": [],
+    "videos": [
+      {
+        "key": "QA4tA0ZGjgw",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -2116,7 +2011,12 @@
     },
     "set_number": 1,
     "time": 1647107040,
-    "videos": [],
+    "videos": [
+      {
+        "key": "lkBqFbo6tvA",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -2237,7 +2137,12 @@
     },
     "set_number": 1,
     "time": 1647107520,
-    "videos": [],
+    "videos": [
+      {
+        "key": "oMAkcp2MEEY",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -2358,7 +2263,12 @@
     },
     "set_number": 1,
     "time": 1647111600,
-    "videos": [],
+    "videos": [
+      {
+        "key": "_b_ai_k4qkQ",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -2479,7 +2389,12 @@
     },
     "set_number": 1,
     "time": 1647112080,
-    "videos": [],
+    "videos": [
+      {
+        "key": "ZNHr-5A4ntc",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -2600,7 +2515,12 @@
     },
     "set_number": 1,
     "time": 1647112560,
-    "videos": [],
+    "videos": [
+      {
+        "key": "DhG97pOXvsg",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -2721,7 +2641,12 @@
     },
     "set_number": 1,
     "time": 1647113040,
-    "videos": [],
+    "videos": [
+      {
+        "key": "N-RBZ_kL0tI",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -2842,7 +2767,12 @@
     },
     "set_number": 1,
     "time": 1647101280,
-    "videos": [],
+    "videos": [
+      {
+        "key": "V7YgLXlmtfg",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -2963,7 +2893,12 @@
     },
     "set_number": 1,
     "time": 1647113520,
-    "videos": [],
+    "videos": [
+      {
+        "key": "A2fmyJ8Rvok",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -3084,7 +3019,12 @@
     },
     "set_number": 1,
     "time": 1647114000,
-    "videos": [],
+    "videos": [
+      {
+        "key": "HZBCqUUq5DE",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -3205,7 +3145,12 @@
     },
     "set_number": 1,
     "time": 1647114480,
-    "videos": [],
+    "videos": [
+      {
+        "key": "4_UM-DwTIcA",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -3326,7 +3271,12 @@
     },
     "set_number": 1,
     "time": 1647114960,
-    "videos": [],
+    "videos": [
+      {
+        "key": "iMyfDiwVD_Q",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -3447,7 +3397,12 @@
     },
     "set_number": 1,
     "time": 1647115440,
-    "videos": [],
+    "videos": [
+      {
+        "key": "uNwL3Bki2pY",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -3568,7 +3523,12 @@
     },
     "set_number": 1,
     "time": 1647115920,
-    "videos": [],
+    "videos": [
+      {
+        "key": "X0aaLuEWX8U",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -3689,7 +3649,12 @@
     },
     "set_number": 1,
     "time": 1647116400,
-    "videos": [],
+    "videos": [
+      {
+        "key": "7PollzzfAV0",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -3810,7 +3775,12 @@
     },
     "set_number": 1,
     "time": 1647116880,
-    "videos": [],
+    "videos": [
+      {
+        "key": "dEQAJOSLBpQ",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -3931,7 +3901,12 @@
     },
     "set_number": 1,
     "time": 1647117360,
-    "videos": [],
+    "videos": [
+      {
+        "key": "cQR6Ft8VPyE",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -4052,7 +4027,12 @@
     },
     "set_number": 1,
     "time": 1647117840,
-    "videos": [],
+    "videos": [
+      {
+        "key": "rzCLdzI2bmk",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -4173,7 +4153,12 @@
     },
     "set_number": 1,
     "time": 1647101760,
-    "videos": [],
+    "videos": [
+      {
+        "key": "37RUDI4zILg",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -4294,7 +4279,12 @@
     },
     "set_number": 1,
     "time": 1647118320,
-    "videos": [],
+    "videos": [
+      {
+        "key": "itT2yH1OCs0",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -4415,7 +4405,12 @@
     },
     "set_number": 1,
     "time": 1647118800,
-    "videos": [],
+    "videos": [
+      {
+        "key": "YqQbha_g-4c",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -4536,7 +4531,12 @@
     },
     "set_number": 1,
     "time": 1647119280,
-    "videos": [],
+    "videos": [
+      {
+        "key": "HImFvY0_9zI",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -4657,7 +4657,12 @@
     },
     "set_number": 1,
     "time": 1647119760,
-    "videos": [],
+    "videos": [
+      {
+        "key": "wimMzVTorYw",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -4778,7 +4783,12 @@
     },
     "set_number": 1,
     "time": 1647120240,
-    "videos": [],
+    "videos": [
+      {
+        "key": "ra99oUhC5UU",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -4901,7 +4911,12 @@
     },
     "set_number": 1,
     "time": 1647120720,
-    "videos": [],
+    "videos": [
+      {
+        "key": "a2bsVdOdy14",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -5024,7 +5039,12 @@
     },
     "set_number": 1,
     "time": 1647121200,
-    "videos": [],
+    "videos": [
+      {
+        "key": "lwSTi7LHUds",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -5145,7 +5165,12 @@
     },
     "set_number": 1,
     "time": 1647121680,
-    "videos": [],
+    "videos": [
+      {
+        "key": "3Ip9fTF-3Gc",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -5266,7 +5291,12 @@
     },
     "set_number": 1,
     "time": 1647122160,
-    "videos": [],
+    "videos": [
+      {
+        "key": "ESousS0W20c",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -5387,7 +5417,12 @@
     },
     "set_number": 1,
     "time": 1647122640,
-    "videos": [],
+    "videos": [
+      {
+        "key": "wQ5hS0DFm-c",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -5508,7 +5543,12 @@
     },
     "set_number": 1,
     "time": 1647102240,
-    "videos": [],
+    "videos": [
+      {
+        "key": "R4sMd3vfyig",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -5629,7 +5669,12 @@
     },
     "set_number": 1,
     "time": 1647123120,
-    "videos": [],
+    "videos": [
+      {
+        "key": "UW5A-og5rRI",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -5750,7 +5795,12 @@
     },
     "set_number": 1,
     "time": 1647123600,
-    "videos": [],
+    "videos": [
+      {
+        "key": "0KUKInGLJag",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -5871,7 +5921,12 @@
     },
     "set_number": 1,
     "time": 1647124080,
-    "videos": [],
+    "videos": [
+      {
+        "key": "rJOQk46LDpY",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -5992,7 +6047,12 @@
     },
     "set_number": 1,
     "time": 1647176400,
-    "videos": [],
+    "videos": [
+      {
+        "key": "c2Zph0ZjQvg",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -6113,7 +6173,12 @@
     },
     "set_number": 1,
     "time": 1647176880,
-    "videos": [],
+    "videos": [
+      {
+        "key": "xnp-3cw-Z9c",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -6234,7 +6299,12 @@
     },
     "set_number": 1,
     "time": 1647177360,
-    "videos": [],
+    "videos": [
+      {
+        "key": "nbgkkmSvWDo",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -6355,7 +6425,12 @@
     },
     "set_number": 1,
     "time": 1647177840,
-    "videos": [],
+    "videos": [
+      {
+        "key": "gTsVCjvig00",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -6476,7 +6551,12 @@
     },
     "set_number": 1,
     "time": 1647178320,
-    "videos": [],
+    "videos": [
+      {
+        "key": "bWIerzQm29E",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -6599,7 +6679,12 @@
     },
     "set_number": 1,
     "time": 1647178800,
-    "videos": [],
+    "videos": [
+      {
+        "key": "3RF1D8jn8Ak",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -6720,7 +6805,12 @@
     },
     "set_number": 1,
     "time": 1647179280,
-    "videos": [],
+    "videos": [
+      {
+        "key": "4ygA6Ypf2QI",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -6841,7 +6931,12 @@
     },
     "set_number": 1,
     "time": 1647102720,
-    "videos": [],
+    "videos": [
+      {
+        "key": "mKDOyfusR2I",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -6962,7 +7057,12 @@
     },
     "set_number": 1,
     "time": 1647179760,
-    "videos": [],
+    "videos": [
+      {
+        "key": "mayYdZOm3_Y",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -7083,7 +7183,12 @@
     },
     "set_number": 1,
     "time": 1647180240,
-    "videos": [],
+    "videos": [
+      {
+        "key": "VbehY1y_Jxk",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -7204,7 +7309,12 @@
     },
     "set_number": 1,
     "time": 1647180720,
-    "videos": [],
+    "videos": [
+      {
+        "key": "h3SdZ9aqyWw",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -7325,7 +7435,12 @@
     },
     "set_number": 1,
     "time": 1647103200,
-    "videos": [],
+    "videos": [
+      {
+        "key": "UYHT_bpyajg",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -7446,7 +7561,12 @@
     },
     "set_number": 1,
     "time": 1647103680,
-    "videos": [],
+    "videos": [
+      {
+        "key": "iIRJ6wwxNHY",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -7567,7 +7687,12 @@
     },
     "set_number": 1,
     "time": 1647104160,
-    "videos": [],
+    "videos": [
+      {
+        "key": "P1pYWeNIo7o",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -7688,7 +7813,12 @@
     },
     "set_number": 1,
     "time": 1647104640,
-    "videos": [],
+    "videos": [
+      {
+        "key": "bbVPSO34dFY",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -7809,7 +7939,12 @@
     },
     "set_number": 1,
     "time": 1647192960,
-    "videos": [],
+    "videos": [
+      {
+        "key": "OhxEri11bdk",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "red"
   },
   {
@@ -7930,44 +8065,13 @@
     },
     "set_number": 1,
     "time": 1647193920,
-    "videos": [],
-    "winning_alliance": "red"
-  },
-  {
-    "actual_time": null,
-    "alliances": {
-      "blue": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc5687",
-          "frc58",
-          "frc2648"
-        ]
-      },
-      "red": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc3467",
-          "frc6329",
-          "frc7907"
-        ]
+    "videos": [
+      {
+        "key": "YYNdwqQSgwg",
+        "type": "youtube"
       }
-    },
-    "comp_level": "sf",
-    "event_key": "2022melew",
-    "key": "2022melew_sf1m3",
-    "match_number": 3,
-    "post_result_time": null,
-    "predicted_time": 1647194823,
-    "score_breakdown": null,
-    "set_number": 1,
-    "time": 1647194880,
-    "videos": [],
-    "winning_alliance": ""
+    ],
+    "winning_alliance": "red"
   },
   {
     "actual_time": 1647192409,
@@ -8087,7 +8191,12 @@
     },
     "set_number": 2,
     "time": 1647193440,
-    "videos": [],
+    "videos": [
+      {
+        "key": "jWksal0_oWs",
+        "type": "youtube"
+      }
+    ],
     "winning_alliance": "blue"
   },
   {
@@ -8208,43 +8317,12 @@
     },
     "set_number": 2,
     "time": 1647194400,
-    "videos": [],
-    "winning_alliance": "blue"
-  },
-  {
-    "actual_time": null,
-    "alliances": {
-      "blue": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc4564",
-          "frc5813",
-          "frc8023"
-        ]
-      },
-      "red": {
-        "dq_team_keys": [],
-        "score": -1,
-        "surrogate_team_keys": [],
-        "team_keys": [
-          "frc125",
-          "frc133",
-          "frc6895"
-        ]
+    "videos": [
+      {
+        "key": "QXpJX_y6DgE",
+        "type": "youtube"
       }
-    },
-    "comp_level": "sf",
-    "event_key": "2022melew",
-    "key": "2022melew_sf2m3",
-    "match_number": 3,
-    "post_result_time": null,
-    "predicted_time": 1647195296,
-    "score_breakdown": null,
-    "set_number": 2,
-    "time": 1647195360,
-    "videos": [],
-    "winning_alliance": ""
+    ],
+    "winning_alliance": "blue"
   }
 ]

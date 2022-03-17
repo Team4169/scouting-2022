@@ -30,14 +30,8 @@ def scoreFromMatchForTeam(pos, sb):
         "Yes": 1,
         "No": 0
     }
-  
-    try:
-      auto_cargo = sb["autoCargoPoints"]
-    except:
-      auto_cargo = sb["autoCargoTotals"]
-
     return {
-        'auto_cargo': auto_cargo,
+        'auto_cargo': sb["autoCargoPoints"],
         "auto_taxi": taxiIndex[sb["taxiRobot" + str(pos + 1)]],
         "endgame": climbIndex[sb["endgameRobot" + str(pos + 1)]], # No climb: 0, low: 1, med: 2, high: 3 traversal: 4
         "teleop_cargo": sb["teleopCargoPoints"]
@@ -49,13 +43,9 @@ def scoreTeam(team, matches):
 
     for match in matches:
         if key in match['alliances']['red']['team_keys']:
-            print(match['alliances']['red']['team_keys'])
-            print(match['score_breakdown'])
             pos = match['alliances']['red']['team_keys'].index(key)
             data.append(scoreFromMatchForTeam(pos, match['score_breakdown']['red']))
         elif key in match['alliances']['blue']['team_keys']:
-            print(match['alliances']['blue']['team_keys'])
-            print(match['score_breakdown'])
             pos = match['alliances']['blue']['team_keys'].index(key)
             data.append(scoreFromMatchForTeam(pos, match['score_breakdown']['blue']))
 

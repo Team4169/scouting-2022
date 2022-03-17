@@ -1,24 +1,25 @@
 body {
-    margin: 25px;
+  margin: 25px;
 }
-h1, h2{
-    text-align: center;
-    color: darkblue;
+
+h1, h2 {
+  text-align: center;
+  color: darkblue;
 }
 
 table {
-    width: 100%;
-    outline: black;
-    text-align: center;
+  width: 100%;
+  outline: black;
+  text-align: center;
 }
 
-td,th {
-    border: 1px solid black;
-    padding: 5px;
+td, th {
+  border: 1px solid black;
+  padding: 5px;
 }
 
 a {
-    text-decoration: none;
-    text-align: center;
-    color: coral;
+  text-decoration: none;
+  text-align: center;
+  color: coral;
 }
