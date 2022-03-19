@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect
 import sqlite3
 from scrape import scrape
+import json
 
 app = Flask(__name__)
 
@@ -45,9 +46,13 @@ def pull():
 
 @app.route('/upload', methods=['POST'])
 def upload():
-    num = request.form.get('number')
-    score = request.form.get('score')
-    comments = request.form.get('comments')
+    data = json.loads(request.form.to_dict().keys()[0])
+    num = data['number']
+    score = data['score']
+    comments = data['comments']
+    # num = request.form.get('number')
+    # score = request.form.get('score')
+    # comments = request.form.get('comments')
     db = sqlite3.connect('db.sqlite3')
     cur = db.cursor()
     if cur.execute("SELECT COUNT(*) FROM teams WHERE number=?", (num,)).fetchone()[0] > 0:
