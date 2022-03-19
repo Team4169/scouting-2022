@@ -5,7 +5,7 @@ from scrape import scrape
 app = Flask(__name__)
 
 # test matches: 2022nhgrs, 2022ctwat, 2022melew
-MATCH = "2022ctwat"
+MATCH = "2022nhgrs"
 
 @app.route('/')
 def index():
