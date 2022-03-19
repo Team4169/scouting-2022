@@ -53,7 +53,7 @@ def upload():
     if cur.execute("SELECT COUNT(*) FROM teams WHERE number=?", (num,)).fetchone()[0] > 0:
         cur.execute("UPDATE teams SET pscore=?, comments=? WHERE number=?", (score, comments, num))
     else:
-        cur.execute("INSERT INTO teams (number, pscore, comments) VALUES (?,?,?,?)", (num, score, comments))
+        cur.execute("INSERT INTO teams (number, pscore, comments) VALUES (?,?,?)", (num, score, comments))
     db.commit()
     db.close()
 
