@@ -46,15 +46,14 @@ def pull():
 @app.route('/upload', methods=['POST'])
 def upload():
     num = request.form.get('number')
-    name = request.form.get('name')
     score = request.form.get('score')
     comments = request.form.get('comments')
     db = sqlite3.connect('db.sqlite3')
     cur = db.cursor()
     if cur.execute("SELECT COUNT(*) FROM teams WHERE number=?", (num,)).fetchone()[0] > 0:
-        cur.execute("UPDATE teams SET pscore=?, name=?, comments=? WHERE number=?", (score, name, comments, num))
+        cur.execute("UPDATE teams SET pscore=?, comments=? WHERE number=?", (score, comments, num))
     else:
-        cur.execute("INSERT INTO teams (name, number, pscore, comments) VALUES (?,?,?,?)", (name, num, score, comments))
+        cur.execute("INSERT INTO teams (number, pscore, comments) VALUES (?,?,?,?)", (num, score, comments))
     db.commit()
     db.close()
 
