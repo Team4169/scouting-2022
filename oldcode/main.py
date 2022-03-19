@@ -7,8 +7,9 @@ os.system('rm *.json')
 key = "e895huOQC8MTwe7FquKed5VVelPk1ocpE0455a2mVUWViaRupTH8N1ZEGoUMW7eU"
 
 urls = {
-  '2022melew_matches' : 'https://www.thebluealliance.com/api/v3/event/2022melew/matches',
-  'teams' : 'https://www.thebluealliance.com/api/v3/event/2022melew/teams'
+  'matches' : 'https://www.thebluealliance.com/api/v3/event/2022marea/matches',
+  'teams' : 'https://www.thebluealliance.com/api/v3/event/2022marea/teams',
+  '4169' : 'https://www.thebluealliance.com/api/v3/team/frc4169/events'
 }
 
 for url in urls:
