@@ -38,7 +38,7 @@ def rank(team):
 
 def format(unix):
   unix = datetime.datetime.fromtimestamp(unix)
-  return unix.astimezone(pytz.timezone('US/Eastern')).strftime("%H:%M:%S")
+  return unix.astimezone(pytz.timezone('US/Eastern')).strftime("%H:%M:%S on %D")
 
 def teammates(data, x):
   if x == True:
@@ -46,6 +46,7 @@ def teammates(data, x):
   else:
     return data["alliances"]["red"]["team_keys"]
 
+matchinfo = []
 for i in matches:
   if 'frc4169' in teammates(i, True):
     da_bois = teammates(i, True)
@@ -64,11 +65,26 @@ for i in matches:
 
   for i in range(len(poopyheads)):
     their_ranking.append(rank(poopyheads[i]))
-  
-  print('Match: #' + str(match_number))
-  print('Round starts at', time)
-  print('da bois:', da_bois)
-  print('Rankings:', our_ranking)
-  print('los poopyheads:', poopyheads)
-  print('Rankings:', their_ranking)
+
+  matchinfo.append([match_number, time, da_bois, our_ranking, poopyheads, their_ranking])
+
+matchnumbers = []
+for match in matchinfo:
+  matchnumbers.append(match[0])
+matchnumbers.sort()
+
+matchinfosorted = []
+for num in matchnumbers:
+  for match in matchinfo:
+    if match[0] == num:
+      matchinfosorted.append(match)
+      break
+
+for match in matchinfosorted:
+  print('Match: #' + str(match[0]))
+  print('Round starts at', match[1])
+  print('da bois:', match[2])
+  print('Rankings:', match[3])
+  print('los poopyheads:', match[4])
+  print('Rankings:', match[5])
   print('-------------------------------------------------')
